@@ -5,15 +5,16 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// Updated to use fleshflowapp project with Realtime Database
+// Collections: orders, products, reviews, users
 const firebaseConfig = {
-    apiKey: "AIzaSyAiDhHCPEO4DwuP7z1tc0YKIHvxCGYlYqs",
-    authDomain: "fleshflow-bbe34.firebaseapp.com",
-    projectId: "fleshflow-bbe34",
-    storageBucket: "fleshflow-bbe34.appspot.com",
-    messagingSenderId: "960756777432",
-    appId: "1:960756777432:web:5717b721aa41b82a4272ad",
-    measurementId: "G-36WV4XBDSL"
+    apiKey: "AIzaSyB5sIvgxf0yHG2J4ck5JrNceHpHoNi0MBQ",
+    authDomain: "fleshflowapp.firebaseapp.com",
+    projectId: "fleshflowapp",
+    storageBucket: "fleshflowapp.appspot.com",
+    messagingSenderId: "62326277538",
+    appId: "1:62326277538:web:75b1dfc438d3ec98cb1efb",
+    databaseURL: "https://fleshflowapp-default-rtdb.firebaseio.com/"
 };
 
 // Initialize Firebase
